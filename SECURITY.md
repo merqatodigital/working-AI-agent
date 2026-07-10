@@ -1,38 +1,19 @@
 # Security Policy
 
-## Reporting a Vulnerability
+## Reporting
 
-Do not open a public GitHub issue for suspected security vulnerabilities, exposed credentials, authentication bypasses, tenant-isolation failures, or customer-data exposure.
+Do not open a public issue for exposed credentials, authentication bypasses, cross-tenant access, prompt-injection paths involving privileged tools, or guest-data exposure.
 
-Report the issue privately to MerQato Digital at `merqato.digital@gmail.com` with:
+Report vulnerabilities privately to `merqato.digital@gmail.com` with reproduction steps, impact, affected components, and any suggested remediation.
 
-- A concise description of the issue
-- Affected route, component, or service
-- Reproduction steps
-- Potential impact
-- Suggested remediation, when known
+## Current Maturity
 
-## Secret Handling
+KAPWA is an early-stage codebase and is not yet approved for handling production guest or payment data. Authentication, tenant isolation, CORS, database policies, rate limiting, logging, and deployment controls require explicit verification before public exposure.
 
-Never commit:
+## Secrets
 
-- `.env` files
-- Supabase service-role keys
-- AI provider API keys
-- OAuth client secrets
-- Access or refresh tokens
-- Customer credentials or personal data
+Never commit API keys, Supabase service-role keys, OAuth secrets, access tokens, passwords, or `.env` files. If a credential enters Git history, rotate it immediately; deleting the file in a later commit is insufficient.
 
-If a secret is committed, removing the file is not enough. Revoke or rotate the credential immediately and clean the Git history when required.
+## Agent Safety
 
-## Multi-Tenant Requirements
-
-All application and database changes must preserve tenant isolation. Authorization must be enforced server-side and, where applicable, through Supabase Row Level Security. Client-provided tenant identifiers must never be trusted without validating the authenticated user's membership and permissions.
-
-## Dependency and Deployment Safety
-
-- Review dependency changes before merging.
-- Keep lockfiles committed once the package manager is established.
-- Restrict production environment access.
-- Use separate development, preview, and production credentials.
-- Do not log secrets, full tokens, or sensitive guest information.
+Actions that publish externally, alter reservations, change money-related records, send messages, delete data, or affect guest commitments must require appropriate authorization and, where designed, explicit human approval.

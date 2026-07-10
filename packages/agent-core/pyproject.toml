@@ -1,0 +1,23 @@
+[project]
+name = "agent-core"
+version = "0.1.0"
+description = "LangGraph agent brain for KAPWA Resort OS"
+requires-python = ">=3.12"
+dependencies = [
+    "resort-types",
+    "resort-data",
+    "resort-tools",
+    "langgraph>=1.2.0",
+    "langchain>=1.0.0",
+    "langchain-core>=1.0.0",
+    "langchain-ollama>=0.3.0",
+    "langchain-openai>=0.3.0",
+    "pydantic>=2.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agent_core"]

@@ -1,0 +1,22 @@
+[
+  {"id": "INV001", "item_name": "Bath Towels", "category": "linens", "current_quantity": 150, "min_quantity": 50, "unit": "pieces", "unit_cost": 250, "supplier": "Palawan Linens Supply", "last_restocked_at": "2026-07-01"},
+  {"id": "INV002", "item_name": "Bed Sheets (King)", "category": "linens", "current_quantity": 45, "min_quantity": 20, "unit": "sets", "unit_cost": 450, "supplier": "Palawan Linens Supply", "last_restocked_at": "2026-06-15"},
+  {"id": "INV003", "item_name": "Bed Sheets (Queen)", "category": "linens", "current_quantity": 38, "min_quantity": 20, "unit": "sets", "unit_cost": 380, "supplier": "Palawan Linens Supply", "last_restocked_at": "2026-06-15"},
+  {"id": "INV004", "item_name": "Shampoo Bottles", "category": "toiletries", "current_quantity": 300, "min_quantity": 100, "unit": "bottles", "unit_cost": 35, "supplier": "Manila Toiletries Co.", "last_restocked_at": "2026-07-01"},
+  {"id": "INV005", "item_name": "Conditioner Bottles", "category": "toiletries", "current_quantity": 280, "min_quantity": 100, "unit": "bottles", "unit_cost": 35, "supplier": "Manila Toiletries Co.", "last_restocked_at": "2026-07-01"},
+  {"id": "INV006", "item_name": "Soap Bars", "category": "toiletries", "current_quantity": 400, "min_quantity": 150, "unit": "pieces", "unit_cost": 15, "supplier": "Manila Toiletries Co.", "last_restocked_at": "2026-07-01"},
+  {"id": "INV007", "item_name": "Body Lotion", "category": "toiletries", "current_quantity": 180, "min_quantity": 80, "unit": "bottles", "unit_cost": 45, "supplier": "Manila Toiletries Co.", "last_restocked_at": "2026-06-20"},
+  {"id": "INV008", "item_name": "Pool Towels", "category": "linens", "current_quantity": 80, "min_quantity": 30, "unit": "pieces", "unit_cost": 180, "supplier": "Palawan Linens Supply", "last_restocked_at": "2026-07-01"},
+  {"id": "INV009", "item_name": "Coffee Pods", "category": "minibar", "current_quantity": 500, "min_quantity": 100, "unit": "pieces", "unit_cost": 8, "supplier": "Davao Coffee Roasters", "last_restocked_at": "2026-07-05"},
+  {"id": "INV010", "item_name": "Mini Water Bottles", "category": "minibar", "current_quantity": 200, "min_quantity": 50, "unit": "bottles", "unit_cost": 12, "supplier": "Palawan Water Co.", "last_restocked_at": "2026-07-05"},
+  {"id": "INV011", "item_name": "Tea Bags", "category": "minibar", "current_quantity": 300, "min_quantity": 80, "unit": "pieces", "unit_cost": 5, "supplier": "Davao Coffee Roasters", "last_restocked_at": "2026-07-05"},
+  {"id": "INV012", "item_name": "Cleaning Spray", "category": "cleaning", "current_quantity": 25, "min_quantity": 10, "unit": "bottles", "unit_cost": 65, "supplier": "Cebu Clean Supplies", "last_restocked_at": "2026-06-25"},
+  {"id": "INV013", "item_name": "Laundry Detergent", "category": "cleaning", "current_quantity": 18, "min_quantity": 8, "unit": "bottles", "unit_cost": 85, "supplier": "Cebu Clean Supplies", "last_restocked_at": "2026-06-25"},
+  {"id": "INV014", "item_name": "Vacuum Bags", "category": "cleaning", "current_quantity": 15, "min_quantity": 5, "unit": "pieces", "unit_cost": 120, "supplier": "Cebu Clean Supplies", "last_restocked_at": "2026-06-10"},
+  {"id": "INV015", "item_name": "Light Bulbs", "category": "maintenance", "current_quantity": 40, "min_quantity": 15, "unit": "pieces", "unit_cost": 45, "supplier": "Manila Hardware", "last_restocked_at": "2026-06-01"},
+  {"id": "INV016", "item_name": "Air Filters", "category": "maintenance", "current_quantity": 8, "min_quantity": 6, "unit": "pieces", "unit_cost": 350, "supplier": "Manila Hardware", "last_restocked_at": "2026-05-15"},
+  {"id": "INV017", "item_name": "Plunger", "category": "maintenance", "current_quantity": 5, "min_quantity": 3, "unit": "pieces", "unit_cost": 150, "supplier": "Manila Hardware", "last_restocked_at": "2026-04-20"},
+  {"id": "INV018", "item_name": "Duct Tape", "category": "maintenance", "current_quantity": 12, "min_quantity": 5, "unit": "rolls", "unit_cost": 60, "supplier": "Manila Hardware", "last_restocked_at": "2026-06-01"},
+  {"id": "INV019", "item_name": "Welcome Drink Mix", "category": "minibar", "current_quantity": 60, "min_quantity": 30, "unit": "portions", "unit_cost": 25, "supplier": "Palawan Beverages", "last_restocked_at": "2026-07-01"},
+  {"id": "INV020", "item_name": "Bath Robes", "category": "linens", "current_quantity": 35, "min_quantity": 15, "unit": "pieces", "unit_cost": 500, "supplier": "Palawan Linens Supply", "last_restocked_at": "2026-06-10"}
+]

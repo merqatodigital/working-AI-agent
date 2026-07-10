@@ -1,0 +1,125 @@
+[
+  {
+    "id": "G001",
+    "first_name": "Maria",
+    "last_name": "Santos",
+    "email": "maria@email.com",
+    "phone": "+63-917-123-4567",
+    "nationality": "Philippine",
+    "preferences": {"room_view": "ocean", "dietary": "vegetarian"},
+    "past_stays": [{"date": "2025-12-20", "room": "R301", "rating": 5}],
+    "loyalty_tier": "gold",
+    "notes": "Regular guest, prefers quiet rooms"
+  },
+  {
+    "id": "G002",
+    "first_name": "John",
+    "last_name": "Smith",
+    "email": "john@email.com",
+    "phone": "+1-555-0123",
+    "nationality": "American",
+    "preferences": {"room_view": "garden", "pillow": "firm"},
+    "past_stays": [],
+    "loyalty_tier": "standard",
+    "notes": null
+  },
+  {
+    "id": "G003",
+    "first_name": "Yuki",
+    "last_name": "Tanaka",
+    "email": "yuki@email.com",
+    "phone": "+81-90-1234-5678",
+    "nationality": "Japanese",
+    "preferences": {"room_view": "ocean", "quiet_room": true},
+    "past_stays": [{"date": "2026-01-15", "room": "R205", "rating": 4}],
+    "loyalty_tier": "silver",
+    "notes": "Prefers Japanese-speaking staff if available"
+  },
+  {
+    "id": "G004",
+    "first_name": "Hans",
+    "last_name": "Mueller",
+    "email": "hans@email.com",
+    "phone": "+49-170-1234567",
+    "nationality": "German",
+    "preferences": {"room_view": "pool"},
+    "past_stays": [],
+    "loyalty_tier": "standard",
+    "notes": null
+  },
+  {
+    "id": "G005",
+    "first_name": "Ana",
+    "last_name": "Garcia",
+    "email": "ana@email.com",
+    "phone": "+34-612-345-678",
+    "nationality": "Spanish",
+    "preferences": {"dietary": "gluten_free"},
+    "past_stays": [
+      {"date": "2025-06-10", "room": "V102", "rating": 5},
+      {"date": "2025-11-22", "room": "R303", "rating": 4}
+    ],
+    "loyalty_tier": "gold",
+    "notes": "VIP guest, always celebrates anniversary here"
+  },
+  {
+    "id": "G006",
+    "first_name": "Chen",
+    "last_name": "Wei",
+    "email": "chen@email.com",
+    "phone": "+86-138-0013-8000",
+    "nationality": "Chinese",
+    "preferences": {"language": "Mandarin"},
+    "past_stays": [],
+    "loyalty_tier": "standard",
+    "notes": null
+  },
+  {
+    "id": "G007",
+    "first_name": "Sarah",
+    "last_name": "Johnson",
+    "email": "sarah@email.com",
+    "phone": "+44-7911-123456",
+    "nationality": "British",
+    "preferences": {"room_view": "ocean", "late_checkout": true},
+    "past_stays": [{"date": "2026-03-05", "room": "R208", "rating": 5}],
+    "loyalty_tier": "silver",
+    "notes": "Travel blogger, good for reviews"
+  },
+  {
+    "id": "G008",
+    "first_name": "Raj",
+    "last_name": "Patel",
+    "email": "raj@email.com",
+    "phone": "+91-98765-43210",
+    "nationality": "Indian",
+    "preferences": {"dietary": "vegetarian"},
+    "past_stays": [],
+    "loyalty_tier": "standard",
+    "notes": null
+  },
+  {
+    "id": "G009",
+    "first_name": "Emma",
+    "last_name": "Brown",
+    "email": "emma@email.com",
+    "phone": "+61-412-345-678",
+    "nationality": "Australian",
+    "preferences": {"adventure_activities": true},
+    "past_stays": [],
+    "loyalty_tier": "standard",
+    "notes": "Interested in island hopping and diving"
+  },
+  {
+    "id": "G010",
+    "first_name": "Carlos",
+    "last_name": "Rivera",
+    "email": "carlos@email.com",
+    "phone": "+52-55-1234-5678",
+    "nationality": "Mexican",
+    "preferences": {"language": "Spanish"},
+    "past_stays": [{"date": "2025-08-18", "room": "V104", "rating": 5}],
+    "loyalty_tier": "gold",
+    "notes": "Honeymoon guest, book flowers on arrival"
+  }
+]

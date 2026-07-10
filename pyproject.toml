@@ -1,0 +1,28 @@
+[project]
+name = "kapwa-os"
+version = "0.1.0"
+description = "KAPWA Resort Super Agent — AI-powered resort management system"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["packages/*", "apps/*"]
+exclude = ["apps/dashboard"]
+
+[tool.uv.sources]
+resort-types = { workspace = true }
+resort-data = { workspace = true }
+resort-tools = { workspace = true }
+agent-core = { workspace = true }
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

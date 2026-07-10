@@ -1,0 +1,42 @@
+{
+  "checkout_time": "12:00",
+  "late_checkout": {
+    "allowed_hours": 3,
+    "fee_php": 1500,
+    "requires_approval": false
+  },
+  "cancellation_policy": {
+    "full_refund_before_hours": 48,
+    "partial_refund_before_hours": 24,
+    "partial_refund_percent": 50,
+    "no_refund_after_hours": 24
+  },
+  "approval_limits": {
+    "staff": 5000,
+    "supervisor": 25000,
+    "manager": 100000,
+    "owner": 999999
+  },
+  "currency": "PHP",
+  "tax_rate": {
+    "vat_percent": 12,
+    "service_charge_percent": 10
+  },
+  "room_types": {
+    "standard": {"base_rate": 3500, "max_occupancy": 2},
+    "deluxe": {"base_rate": 5500, "max_occupancy": 3},
+    "suite": {"base_rate": 8500, "max_occupancy": 4},
+    "villa": {"base_rate": 15000, "max_occupancy": 6}
+  },
+  "resort_info": {
+    "name": "KAPWA Beach Resort",
+    "location": "Palawan Island, Philippines",
+    "total_rooms": 30,
+    "total_villas": 5,
+    "check_in_time": "14:00",
+    "pool_hours": "07:00-22:00",
+    "restaurant_hours": "06:30-22:00",
+    "spa_hours": "09:00-20:00",
+    "emergency_number": "+63-917-000-9999"
+  }
+}

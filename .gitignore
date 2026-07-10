@@ -1,35 +1,37 @@
-# Dependencies
-node_modules/
-.pnpm-store/
-.yarn/
-
-# Build output
-.next/
-dist/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 build/
-out/
-coverage/
-.vercel/
+dist/
+wheels/
 
-# Environment files
+# Node / Vite
+node_modules/
+apps/dashboard/node_modules/
+apps/dashboard/dist/
+*.tsbuildinfo
+
+# Environment and secrets
 .env
 .env.*
 !.env.example
+!apps/dashboard/.env.example
 
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Editors and operating systems
+# IDE and operating system
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 
-# Local tooling
-*.tsbuildinfo
-.turbo/
+# Logs and local output
+*.log
+coverage/
 .cache/
